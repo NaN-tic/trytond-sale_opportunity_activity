@@ -7,12 +7,12 @@ from trytond.pool import PoolMeta, Pool
 from trytond.pyson import Eval
 from trytond.transaction import Transaction
 
-__metaclass__ = PoolMeta
 __all__ = ['Activity', 'SaleOpportunity']
 
 
 class SaleOpportunity:
     __name__ = 'sale.opportunity'
+    __metaclass__ = PoolMeta
 
     activities = fields.One2Many('activity.activity', 'resource',
         'Activities', context={
@@ -65,6 +65,7 @@ class SaleOpportunity:
 
 class Activity:
     __name__ = 'activity.activity'
+    __metaclass__ = PoolMeta
 
     @classmethod
     def default_party(cls):
