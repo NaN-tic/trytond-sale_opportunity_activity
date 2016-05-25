@@ -1,4 +1,4 @@
-# 
+#
 msgid ""
 msgstr "Content-Type: text/plain; charset=utf-8\n"
 
@@ -21,3 +21,11 @@ msgstr "Data pròxima activtat"
 msgctxt "view:sale.opportunity:"
 msgid "Activities"
 msgstr "Activitats"
+
+msgctxt "view:sale.opportunity:"
+msgid "Last Action Time"
+msgstr "Última acció"
+
+msgctxt "view:sale.opportunity:"
+msgid "Next Action Time"
+msgstr "Següent acció"
