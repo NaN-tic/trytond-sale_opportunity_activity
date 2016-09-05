@@ -3,7 +3,7 @@
      copyright notices and license terms. -->
 <data>
     <xpath
-        expr="/tree/field[@name='probability']"
+        expr="/tree/field[@name='conversion_probability']"
         position="after">
         <field name="last_action_date" widget="date"/>
         <field name="last_action_date" widget="time" string="Last Action Time"/>
