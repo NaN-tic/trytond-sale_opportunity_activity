@@ -8,12 +8,6 @@
             <field name="inherit" ref="sale_opportunity.opportunity_view_form"/>
             <field name="name">sale_opportunity_form</field>
         </record>
-
-        <record model="ir.ui.view" id="sale_opportunity_activity_tree_view">
-            <field name="model">sale.opportunity</field>
-            <field name="inherit" ref="sale_opportunity.opportunity_view_tree"/>
-            <field name="name">sale_opportunity_tree</field>
-        </record>
     </data>
 </tryton>
 
