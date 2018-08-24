@@ -8,9 +8,8 @@ from trytond.transaction import Transaction
 __all__ = ['Activity', 'SaleOpportunity']
 
 
-class SaleOpportunity:
+class SaleOpportunity(metaclass=PoolMeta):
     __name__ = 'sale.opportunity'
-    __metaclass__ = PoolMeta
 
     activities = fields.One2Many('activity.activity', 'resource',
         'Activities', context={
@@ -60,9 +59,8 @@ class SaleOpportunity:
         return res
 
 
-class Activity:
+class Activity(metaclass=PoolMeta):
     __name__ = 'activity.activity'
-    __metaclass__ = PoolMeta
 
     @classmethod
     def default_party(cls):
