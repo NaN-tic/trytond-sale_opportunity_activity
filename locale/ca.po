@@ -16,7 +16,7 @@ msgstr "Pròxima activitat"
 
 msgctxt "field:sale.opportunity,next_action_date:"
 msgid "Next Action Date"
-msgstr "Data pròxima activtat"
+msgstr "Data pròxima activitat"
 
 msgctxt "view:sale.opportunity:"
 msgid "Activities"
