@@ -9,7 +9,7 @@
             <field name="name">sale_opportunity_form</field>
         </record>
         <record model="activity.reference" id="sale_opportunity_reference">
-            <field name="model" search="[('model', '=', 'sale.opportunity')]"/>
+            <field name="model" search="[('name', '=', 'sale.opportunity')]"/>
         </record>
     </data>
 </tryton>
