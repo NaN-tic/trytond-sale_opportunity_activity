@@ -13,8 +13,9 @@ class SaleOpportunity(metaclass=PoolMeta):
 
     activities = fields.One2Many('activity.activity', 'resource',
         'Activities', context={
+            'company': Eval('company', -1),
             'opportunity_party': Eval('party'),
-            }, depends=['party'])
+            }, depends=['company', 'party'])
     last_action_date = fields.Function(fields.DateTime('Last Action'),
         'get_last_action_date')
     next_action_date = fields.Function(fields.DateTime('Next Action Date',
