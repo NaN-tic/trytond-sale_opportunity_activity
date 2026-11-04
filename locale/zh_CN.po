@@ -1,0 +1,36 @@
+#
+msgid ""
+msgstr ""
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgctxt "field:sale.opportunity,activities:"
+msgid "Activities"
+msgstr "活动"
+
+msgctxt "field:sale.opportunity,last_action_date:"
+msgid "Last Action"
+msgstr "上次行动"
+
+msgctxt "field:sale.opportunity,next_action:"
+msgid "Next Activity"
+msgstr "下次活动"
+
+msgctxt "field:sale.opportunity,next_action_date:"
+msgid "Next Action Date"
+msgstr "下次行动日期"
+
+msgctxt "view:sale.opportunity:"
+msgid "Activities"
+msgstr "活动"
+
+msgctxt "view:sale.opportunity:"
+msgid "Last Action Time"
+msgstr "上次行动时间"
+
+msgctxt "view:sale.opportunity:"
+msgid "Next Action Time"
+msgstr "下次行动时间"
