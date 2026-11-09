@@ -1,0 +1,36 @@
+#
+msgid ""
+msgstr ""
+"Language: hu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgctxt "field:sale.opportunity,activities:"
+msgid "Activities"
+msgstr "Tevékenységek"
+
+msgctxt "field:sale.opportunity,last_action_date:"
+msgid "Last Action"
+msgstr "Utolsó művelet"
+
+msgctxt "field:sale.opportunity,next_action:"
+msgid "Next Activity"
+msgstr "Következő tevékenység"
+
+msgctxt "field:sale.opportunity,next_action_date:"
+msgid "Next Action Date"
+msgstr "Következő művelet dátuma"
+
+msgctxt "view:sale.opportunity:"
+msgid "Activities"
+msgstr "Tevékenységek"
+
+msgctxt "view:sale.opportunity:"
+msgid "Last Action Time"
+msgstr "Utolsó művelet időpontja"
+
+msgctxt "view:sale.opportunity:"
+msgid "Next Action Time"
+msgstr "Következő művelet időpontja"
