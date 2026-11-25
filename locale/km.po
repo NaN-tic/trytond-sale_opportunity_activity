@@ -1,0 +1,36 @@
+#
+msgid ""
+msgstr ""
+"Language: km\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgctxt "field:sale.opportunity,activities:"
+msgid "Activities"
+msgstr "សកម្មភាព"
+
+msgctxt "field:sale.opportunity,last_action_date:"
+msgid "Last Action"
+msgstr "សកម្មភាពចុងក្រោយ"
+
+msgctxt "field:sale.opportunity,next_action:"
+msgid "Next Activity"
+msgstr "សកម្មភាពបន្ទាប់"
+
+msgctxt "field:sale.opportunity,next_action_date:"
+msgid "Next Action Date"
+msgstr "កាលបរិច្ឆេទសកម្មភាពបន្ទាប់"
+
+msgctxt "view:sale.opportunity:"
+msgid "Activities"
+msgstr "សកម្មភាព"
+
+msgctxt "view:sale.opportunity:"
+msgid "Last Action Time"
+msgstr "ពេលវេលាសកម្មភាពចុងក្រោយ"
+
+msgctxt "view:sale.opportunity:"
+msgid "Next Action Time"
+msgstr "ពេលវេលាសកម្មភាពបន្ទាប់"
